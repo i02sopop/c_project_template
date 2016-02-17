@@ -1,0 +1,111 @@
+ Contribute to XXXXXX project
+===============================
+
+There are six main ways to contribute to this project. The first one
+is test the program and report the bugs founded. If you find any bug,
+please visit the Testers section of this document to know how to
+report it to us.
+
+The next way of collaboration with the project is to donate some money
+to help in the mainteinance of the project. This money can be assigned
+to maintain the project's server (change hardware, renew the domain,
+...) or to pay a developer to work full time in the project. To know
+how to donate money to the project, please visit the Donations section
+in this document.
+
+If you prefer to translate either the program, the documentation or
+the web page of the project in any of the languages needs, please
+visit the Translators section of this document.
+
+If you want to generate or modify the project's documentation, please
+visit the Documenters section of this document.
+
+If you want to contribute in the administration of the project's
+server (where we have the webpage, the git repository and all the
+resources of the project), please visit the Administrators section of
+this document.
+
+And, finally, if you want to help in the coding of the project, please
+visit the Developers section of this document.
+
+If you find another way to collaborate with the project, please
+contact with palvarez@ritho.net exposing your idea.
+
+ Testers
+=========
+
+The tests are one of the most important part of any project, because
+is the way to check that the software is working as expected. If you
+want to collaborate with the project making tests you have three ways
+to do it:
+
+* Test the software by hand. It's important to test every corner case
+  you can imagine and report every error you find.
+* Create test case to test automatically the diferent functionality of
+  the software and some error cases. This test cases can be unitary
+  tests, black box tests, white box tests, ... Basically any type of
+  test you can tests :).
+* Execute the existant automatic tests, report the bugs when found
+  them or fix the tests if the source code has change and the test is
+  not valid anymore as is.
+
+The automatic tests are in the tests directory (what a surprise!), and
+to execute them you have to run "make check" in the top directory.
+When you run the tests you can see the results and errors generated
+both in the screen and in a file generated in the tests directory.
+
+To report a bug please visit the project page at github
+(https://github.com/i02sopop/XXXXXX), click on the Issues section and
+add a new issue. Please, be as descriptive as possible with all the
+information you can and add an email address to contact with you if
+needed.
+
+Remember that the important thing of the tests are find errors, so
+it's important to test both the usual functionality and unusual
+situations that never have to happen, and don't feel bad about
+discover a bug, remember you are helping the project reporting it.
+
+ Donations
+===========
+
+Actually we don't have defined a donation method to the project, but
+if you want to donate some money or hardware (computers, keyboards,
+monitors, ...), please contact <palvarez@ritho.net> or, make your
+proposal and we find the way to make the donation.
+
+ Translators
+=============
+
+TODO
+
+ Documenters
+=============
+
+TODO
+
+ Administrators
+================
+
+The project needs administrators to update the website, maintain the
+email lists, ... In the github issues page you can find some tasks to
+do by the administrators sorted by difficulty and priority. If you want
+to do any of the tasks please keep in touch with the rest of
+administrators (ask at <XXXXXX-developers@lists.ritho.net>
+for them) or write to <palvarez@ritho.net> in order to coordinate the
+tasks.
+
+ Developers
+============
+
+XXXXXX is handled in a git repository that you can find in the
+github's project page at https://github.com/i02sopop/XXXXXX.
+There is a developer mailing list at XXXXXX-developers@lists.ritho.net
+and a mailing list for the commits at XXXXXX-commits@lists.ritho.net,
+and you can subscribe and access to them at https://lists.ritho.net.
+
+If you want to start collaborating with the project you can check the
+issues category in the github page to see the bugs opened about the
+project.
+
+TODO: Include information about the directory structure at the
+repository.
