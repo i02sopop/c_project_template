@@ -3,7 +3,7 @@ AC_PREREQ([2.69])
 AC_CONFIG_SRCDIR([src/main.c])
 AC_CONFIG_AUX_DIR([.build-aux])
 dnl AC_CONFIG_SUBDIRS([subdir])
-AM_INIT_AUTOMAKE([foreign -Wall -Werror dist-bzip2])
+AM_INIT_AUTOMAKE([foreign -Wall -Werror dist-bzip2 subdir-objects])
 
 dnl Gettext
 AM_GNU_GETTEXT_VERSION([0.18.1])
@@ -23,6 +23,7 @@ AC_PROG_MAKE_SET
 dnl Check libraries
 AC_CHECK_LIB([m], [sqrt], [LIBMATH=-lm], [AC_MSG_ERROR([Math library not found])])
 AC_SUBST([LIBMATH])
+PKG_CHECK_MODULES([CHECK], [check >= 0.10.0])
 
 dnl Checking headers 
 AC_CHECK_HEADERS([stdlib.h])
