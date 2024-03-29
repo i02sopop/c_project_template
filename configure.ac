@@ -25,7 +25,7 @@ AC_CHECK_LIB([m], [sqrt], [LIBMATH=-lm], [AC_MSG_ERROR([Math library not found])
 AC_SUBST([LIBMATH])
 PKG_CHECK_MODULES([CHECK], [check >= 0.10.0])
 
-dnl Checking headers 
+dnl Checking headers
 AC_CHECK_HEADERS([stdlib.h])
 AC_CHECK_HEADERS([string.h])
 AC_CHECK_HEADER_STDBOOL

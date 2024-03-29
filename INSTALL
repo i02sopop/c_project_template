@@ -1,6 +1,6 @@
  Installation of XXXXXX
 ============================
-Copyright (C) 2016 XXXXXX project (ses AUTHORS.en)
+Copyright (C) 2024 XXXXXX project (ses AUTHORS.en)
 
 This file is free documentation; the XXXXXX project gives unlimited
 permission to copy, distribute and modify it.
@@ -246,6 +246,3 @@ use the application.
 
     `configure' also accepts some other, not widely useful, options.
     Run `configure --help' for more details.
-
- First steps
-==============

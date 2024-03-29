@@ -1,5 +1,5 @@
 /*********************************************************************************
- * Copyright (c) 2016 XXXXXX project (see AUTHORS)                               *
+ * Copyright (c) 2024 XXXXXX project (see AUTHORS)                               *
  *                                                                               *
  * This file is part of XXXXXX.                                                  *
  *                                                                               *
@@ -13,7 +13,7 @@
  * A PARTICULAR PURPOSE.  See the GNU General Public License for more details.   *
  *                                                                               *
  * You should have received a copy of the GNU General Public License along with  *
- * coconet. If not, see <http://www.gnu.org/licenses/>.                          *
+ * XXXXXXX. If not, see <http://www.gnu.org/licenses/>.                          *
  ********************************************************************************/
 
 #ifndef MACROS_H

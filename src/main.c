@@ -1,5 +1,5 @@
 /*********************************************************************************
- * Copyright (c) 2016 XXXXXX project (see AUTHORS)                               *
+ * Copyright (c) 2024 XXXXXX project (see AUTHORS)                               *
  *                                                                               *
  * This file is part of XXXXXX.                                                  *
  *                                                                               *
@@ -13,18 +13,10 @@
  * A PARTICULAR PURPOSE.  See the GNU General Public License for more details.   *
  *                                                                               *
  * You should have received a copy of the GNU General Public License along with  *
- * coconet. If not, see <http://www.gnu.org/licenses/>.                          *
+ * XXXXXXX. If not, see <http://www.gnu.org/licenses/>.                          *
  ********************************************************************************/
 
 #include <string.h>
-#include <definitions.h>
-
-/*********************************************************************************
- * Manage the program flow.                                                      *
- * @param int argc: Number of arguments of the program.                          *
- * @param char** argv: Arguments passed to the program.                          *
- * @returns 0 with no errors and -1 otherwise.                                   *
- ********************************************************************************/
 
 int
 main(int argc, char **argv) {

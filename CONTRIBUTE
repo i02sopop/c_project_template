@@ -1,4 +1,4 @@
- Contribute to XXXXXX project
+ Contribute to XXXXXXX project
 ===============================
 
 There are six main ways to contribute to this project. The first one
@@ -55,7 +55,7 @@ When you run the tests you can see the results and errors generated
 both in the screen and in a file generated in the tests directory.
 
 To report a bug please visit the project page at github
-(https://github.com/i02sopop/XXXXXX), click on the Issues section and
+(https://github.com/i02sopop/snag), click on the Issues section and
 add a new issue. Please, be as descriptive as possible with all the
 information you can and add an email address to contact with you if
 needed.
@@ -76,36 +76,65 @@ proposal and we find the way to make the donation.
  Translators
 =============
 
-TODO
+The original language of the project is english, and it have a
+translation into spanish. The translations are managed with gettext,
+so if you want to enhace a translation or add a new one you should
+check the po subdirectory. In that directory you can find one po file
+per language, so you can edit the file for the language you'ree interested
+in and make the needed changes.
+
+If you want to start a translation to a new language you can copy one
+of the po files (the language you're translating from) to a new po file
+and start the translation.
+
+For small changes you can do directly a PR with your changes, but if you
+want to do deeper changes it's better to add a new task to github and
+asign it to you.
+
+For now we have not consider the case of having several people that want to
+do a translation to the same language, but if we reach that case we will
+design one lead translator (to decide between all) to coordinate the work.
 
  Documenters
 =============
 
-TODO
+Documentation, both technical and user oriented, is a really important part
+of the project. Apart from the documentation at the code, we have documentation
+both in the docs subdirectory and in the github wiki, so feel free to contribute
+to any of the places.
+
+If you are going to document more than some few lines be sure to have a task
+opened in github and assign it to yourself before start the work to avoid
+doing the same work by two different people.
+
+When documenting, try to be clear, concise and with a same style on all the
+text, and, if you are not sure about something in particular, please ask
+any question to palvarez@ritho.net.
 
  Administrators
 ================
 
-The project needs administrators to update the website, maintain the
-email lists, ... In the github issues page you can find some tasks to
+The project needs administrators to update the website, create and maintain
+the email lists, ... In the github issues page you can find some tasks to
 do by the administrators sorted by difficulty and priority. If you want
-to do any of the tasks please keep in touch with the rest of
-administrators (ask at <XXXXXX-developers@lists.ritho.net>
-for them) or write to <palvarez@ritho.net> in order to coordinate the
-tasks.
+to do any of the tasks write to <palvarez@ritho.net> and assign yourself
+the issue in order to be coordinated.
 
  Developers
 ============
 
-XXXXXX is handled in a git repository that you can find in the
-github's project page at https://github.com/i02sopop/XXXXXX.
-There is a developer mailing list at XXXXXX-developers@lists.ritho.net
-and a mailing list for the commits at XXXXXX-commits@lists.ritho.net,
-and you can subscribe and access to them at https://lists.ritho.net.
+Snag is handled in a git repository that you can find in the github's
+project page at https://github.com/i02sopop/snag. In github we manage
+all the functionalities, bugs, tasks and so on, so if you want to
+collaborate adding new tasks or doing some of them you should go
+the github's issues to read if the task is already planned or if
+someone is doing already the task.
 
-If you want to start collaborating with the project you can check the
-issues category in the github page to see the bugs opened about the
-project.
+When the time comes, we'll create a list for developers, users, bugs,
+commits, ..., but if you want to collaborate in the project write
+palvarez@ritho.net to coordinate the work.
 
-TODO: Include information about the directory structure at the
-repository.
+The source code is in the src directory, and the header files are in
+the include directory. You have also some documentation in the docs
+directory, so feel free to start digging in those directories to learn
+about the code and start making changes.

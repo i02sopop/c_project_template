@@ -24,5 +24,5 @@ fi
 
 echo
 echo "Now run configure with your desired options, for instance:"
-echo "  ./configure CFLAGS=-g"
+echo "  ./configure --prefix=/usr/local CFLAGS=-g"
 echo
